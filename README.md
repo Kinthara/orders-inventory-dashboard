@@ -1,57 +1,54 @@
-# 📦 Orders & Inventory Dashboard
+# 🧾 Orders & Inventory – Angular UI
 
-A fullstack demo application built with **Angular**, **Spring Boot**, **OpenTelemetry**, and **Grafana**.
+This is the **frontend UI** of the Orders & Inventory Dashboard — a demo fullstack application designed to simulate a simple order and stock management system.
 
-This project simulates a simple order and stock management system, designed as a playground to learn:
-
-- REST API development in Java
-- Frontend UI in Angular (v18)
-- Observability with OpenTelemetry
-- Metrics visualization with Grafana
-- Tracing between frontend and backend
+Built with **Angular 18** and **Angular Material**, this SPA connects to a backend (developed separately in Java/Spring Boot) and integrates modern observability tools like **OpenTelemetry** and **Grafana**.
 
 ---
 
-## 🛠 Tech Stack
+## 🖼️ Project Overview
 
-### Frontend
+The app allows users to:
+
+- View a list of orders 📦
+- Add or update stock levels 🧺
+- Navigate between orders and inventory
+- Visualize metrics via Grafana (in future integrations)
+
+---
+
+## 🧠 Tech Stack
+
 - Angular 18
-- Angular Material
+- Angular Material (for UI components)
 - SCSS
-
-### Backend
-- Java 17
-- Spring Boot 3
-- OpenTelemetry Java SDK
-- Prometheus (metrics exporter)
-- Springdoc Swagger (for API docs)
-
-### Observability
-- Grafana
-- Prometheus
-- Jaeger (optional)
+- TypeScript
+- RxJS
+- OpenTelemetry JS (coming soon)
 
 ---
 
-## 🚧 Features (planned)
-
-- [ ] Orders API (CRUD)
-- [ ] Inventory stock tracking
-- [ ] Angular UI with table and form
-- [ ] Tracing of frontend-backend interactions
-- [ ] Grafana dashboards for metrics
-- [ ] PWA enhancements (future)
-
----
-
-## 🔧 Running locally (coming soon)
-
-Instructions for backend and frontend will be added as development progresses.
+## 📁 Project Structure (simplified)
+src/ 
+├── app/ 
+│ ├── features/ 
+│ │ ├── orders/ 
+│ │ └── inventory/ 
+│ ├── shared/ 
+│ └── core/ 
+├── assets/ 
+└── index.html
 
 ---
 
-## ✨ About the Author
+## 🧪 Getting Started
 
-Made with ❤️ by [Alessandra Cella](https://www.linkedin.com/in/alecellaprofile/)  
-Follow the journey on [GitHub](https://github.com/Kinthara) – new features and improvements coming soon!
+Install dependencies:
 
+```bash
+npm install
+
+Made with ❤️ by Alessandra Cella
+GitHub: @Kinthara
+
+📌 This project is licensed under the MIT License.
