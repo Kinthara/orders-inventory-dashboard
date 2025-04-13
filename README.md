@@ -1,54 +1,27 @@
-# 🧾 Orders & Inventory – Angular UI
+# FrontendTemp
 
-This is the **frontend UI** of the Orders & Inventory Dashboard — a demo fullstack application designed to simulate a simple order and stock management system.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.18.
 
-Built with **Angular 18** and **Angular Material**, this SPA connects to a backend (developed separately in Java/Spring Boot) and integrates modern observability tools like **OpenTelemetry** and **Grafana**.
+## Development server
 
----
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## 🖼️ Project Overview
+## Code scaffolding
 
-The app allows users to:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- View a list of orders 📦
-- Add or update stock levels 🧺
-- Navigate between orders and inventory
-- Visualize metrics via Grafana (in future integrations)
+## Build
 
----
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## 🧠 Tech Stack
+## Running unit tests
 
-- Angular 18
-- Angular Material (for UI components)
-- SCSS
-- TypeScript
-- RxJS
-- OpenTelemetry JS (coming soon)
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
----
+## Running end-to-end tests
 
-## 📁 Project Structure (simplified)
-src/ 
-├── app/ 
-│ ├── features/ 
-│ │ ├── orders/ 
-│ │ └── inventory/ 
-│ ├── shared/ 
-│ └── core/ 
-├── assets/ 
-└── index.html
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
----
+## Further help
 
-## 🧪 Getting Started
-
-Install dependencies:
-
-```bash
-npm install
-
-Made with ❤️ by Alessandra Cella
-GitHub: @Kinthara
-
-📌 This project is licensed under the MIT License.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
