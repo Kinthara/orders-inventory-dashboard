@@ -1,4 +1,54 @@
-# FrontendTemp
+# 🧾 Orders & Inventory – Angular UI
+
+This is the **frontend UI** of the Orders & Inventory Dashboard — a fullstack demo application designed to simulate a simple order and stock management system.
+
+Built with **Angular 18**, this project is structured as a standalone frontend that will connect to a backend (developed in Java with Spring Boot and OpenTelemetry).
+
+---
+
+## 🖼️ Project Overview
+
+The app allows users to:
+
+- View a list of orders 📦  
+- Add or update stock levels 🧺  
+- Navigate between orders and inventory  
+- Visualize metrics via Grafana (planned in backend integration)
+
+---
+
+## 🧠 Tech Stack (Frontend)
+
+- Angular 18  
+- SCSS  
+- TypeScript  
+- RxJS  
+- Native HTML/CSS components (no UI libraries for now)  
+- OpenTelemetry JS (coming soon)
+
+---
+
+## 📁 Project Structure (planned)
+
+src/ 
+├── app/ 
+│ ├── features/ 
+│ │ ├── orders/ 
+│ │ └── inventory/ 
+│ ├── shared/ 
+│ └── core/ 
+├── assets/ 
+└── index.html
+
+## 🧪 Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+
+🔗 Related Repositories
+📡 orders-inventory-api (Spring Boot backend – coming soon)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.18.
 
